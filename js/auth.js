@@ -10,7 +10,8 @@
   // ====== COLE AQUI OS HASHES (um por pessoa, separados por vírgula) ======
   var HASHES = [
     '23015f9cebac49f81d0be4f3dde83d74265a8d79ad458ab7731fcde99ffc5662',
-    '09c570785158740a0b7535228edd2204e0e836c478cd3b856619b850ef38911c'
+    '09c570785158740a0b7535228edd2204e0e836c478cd3b856619b850ef38911c',
+    'cb91a65624664fb0905da368bcdd8d489e829a8fb0bc2e070296402ba9e7f1fc'
     // , 'COLE_O_SEGUNDO_HASH_AQUI'
   ];
   var SALT = 'site-da-paula';

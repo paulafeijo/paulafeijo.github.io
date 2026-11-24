@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>site da paula :: são paulo minicamera</title>
+  <script src="../../js/auth.js"></script>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="../../albums/sao-paulo-mini-camera.html">PT</a> <span class="lang-sep">/</span> <span class="lang-current">NL</span>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <p class="site-title">site da paula</p>
+      <nav>
+        <ul>
+          <li><a href="../index.html">start</a></li>
+          <li class="active-nav"><a href="../fotos.html">foto's</a></li>
+          <li><a href="../receitas.html">recepten</a></li>
+          <li><a href="../artes.html">kunst</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <a class="back-link" href="../fotos.html">&lt; terug naar foto's</a>
+      <h2>são paulo minicamera</h2>
+
+      <ul id="gallery" class="photo-grid">
+        <!-- as miniaturas são geradas automaticamente pelo lightbox.js -->
+      </ul>
+    </main>
+
+  </div>
+
+  <script>
+    const filenames = [
+      "PICT0000 Large.jpeg",
+      "PICT0002 Large.jpeg",
+      "PICT0006 Large.jpeg",
+      "PICT0007 Large.jpeg",
+      "PICT0008 Large.jpeg",
+      "PICT0012 Large.jpeg",
+      "PICT0013 Large.jpeg",
+      "PICT0014 Large.jpeg",
+      "PICT0016 Large.jpeg",
+      "PICT0021 Large.jpeg",
+      "PICT0022 Large.jpeg",
+      "PICT0026 Large.jpeg",
+      "PICT0038 Large.jpeg",
+      "PICT0040 Large.jpeg",
+      "PICT0042 Large.jpeg",
+      "PICT0052 Large.jpeg",
+      "PICT0053 Large.jpeg",
+      "PICT0055 Large.jpeg",
+      "PICT0056 Large.jpeg",
+      "PICT0059 Large.jpeg",
+      "PICT0064 Large.jpeg",
+      "PICT0067 Large.jpeg",
+      "PICT0068 Large.jpeg",
+      "PICT0071 Large.jpeg",
+      "PICT0072 Large.jpeg",
+      "PICT0074 Large.jpeg",
+      "PICT0077 Large.jpeg",
+      "PICT0078 Large.jpeg",
+      "PICT0082 Large.jpeg",
+      "PICT0084 Large.jpeg",
+      "PICT0085 Large.jpeg",
+      "PICT0089 Large.jpeg",
+      "PICT0102 Large.jpeg",
+      "PICT0106 Large.jpeg",
+      "PICT0107 Large.jpeg",
+      "PICT0108 Large.jpeg",
+      "PICT0111 Large.jpeg",
+      "PICT0115 Large.jpeg",
+      "PICT0122 Large.jpeg",
+      "PICT0126 Large.jpeg",
+      "PICT0128 Large.jpeg",
+      "PICT0130 Large.jpeg",
+      "PICT0131 Large.jpeg",
+      "PICT0133 Large.jpeg",
+      "PICT0134 Large.jpeg",
+      "PICT0136 Large.jpeg",
+      "PICT0140 Large.jpeg",
+      "PICT0142 Large.jpeg",
+      "PICT0143 Large.jpeg",
+      "PICT0144 Large.jpeg",
+      "PICT0145 Large.jpeg",
+      "PICT0146 Large.jpeg",
+      "PICT0147 Large.jpeg",
+      "PICT0151 Large.jpeg",
+      "PICT0154 Large.jpeg",
+      "PICT0155 Large.jpeg",
+      "PICT0157 Large.jpeg",
+      "PICT0164 Large.jpeg",
+      "PICT0167 Large.jpeg",
+      "PICT0168 Large.jpeg",
+      "PICT0169 Large.jpeg",
+      "PICT0174 Large.jpeg",
+      "PICT0176 Large.jpeg",
+      "PICT0184 Large.jpeg",
+      "PICT0186 Large.jpeg",
+      "PICT0187 Large.jpeg",
+      "PICT0193 Large.jpeg",
+      "PICT0196 Large.jpeg"
+    ];
+    const photos = filenames.map((filename) => ({
+      src: `../../images/sao-paulo-mini-camera/${encodeURIComponent(filename)}`,
+      caption: "São Paulo, fevereiro de 2026.\nKodak Charmera"
+    }));
+  </script>
+  <script src="../../js/lightbox.js"></script>
+
+</body>
+</html>
